@@ -1,0 +1,34 @@
+
+gsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(ïÞ¥Åûÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+bsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ÄÍ³ÿ
+T
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¹‰Ážüÿÿÿÿ
+T
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ÞÜõ®ùÿÿÿÿ
+Isquid:S1989B"-Add a "try/catch" block for "getInputStream".(’¦Î‡úÿÿÿÿ
+{squid:S1149@"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ï„Š¡þÿÿÿÿ
+tsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(®Ðƒ±ýÿÿÿÿ
+Vsquid:S1161+":Add the "@Override" annotation above this method signature(´È®‚ýÿÿÿÿ
+gsquid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(¸ÓÛïøÿÿÿÿ
+Qsquid:S1161L":Add the "@Override" annotation above this method signature(‚“¶î
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÃØ‡œøÿÿÿÿ
+O
+squid:S1066"9Replace this use of System.out or System.err by a logger.( è‡Û
+Qsquid:S1161?":Add the "@Override" annotation above this method signature(§œ×ä
+?squid:S1989B"#Add a "try/catch" block for "read".(’¦Î‡úÿÿÿÿ
+O
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ü²æ†
+tsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ùî¬Ÿøÿÿÿÿ
+Vsquid:S1161":Add the "@Override" annotation above this method signature(¡’…ùüÿÿÿÿ
+Esquid:S1313!"/Make this IP "172.17.0.1" address configurable.(¦‚ìi
+bsquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(Ó‰­‚
+bsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(‹à‹™
+T
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ÙÕÉìøÿÿÿÿ
+Dsquid:S1989;"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ
+T
+squid:S106I"9Replace this use of System.out or System.err by a logger.(‡‘ÝŠúÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(—„ÐÑûÿÿÿÿ

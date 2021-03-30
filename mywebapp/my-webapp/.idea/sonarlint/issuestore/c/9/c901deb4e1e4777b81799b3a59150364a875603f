@@ -1,0 +1,31 @@
+
+1squid:S1220""Move this file to a named package.
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(×ä˜‡ùÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡¦÷Ì
+Bsquid:S1444"+Make this "public static COUNT" field final(ÓÖª¿
+Wsquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å
+{squid:S1149:"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ï„Š¡þÿÿÿÿ
+Qsquid:S11617":Add the "@Override" annotation above this method signature(…¯Á
+Vsquid:S1161l":Add the "@Override" annotation above this method signature(©Çÿšÿÿÿÿÿ
+Jsquid:S19893".Add a "try/catch" block for "getOutputStream".(–ý–üÿÿÿÿ
+Dsquid:S1989A"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ
+gsquid:CommentedOutCodeLinei"<This block of commented-out lines of code should be removed.(ßª€—þÿÿÿÿ
+Qsquid:S1854;"5Remove this useless assignment to local variable "d".(’¦Î‡úÿÿÿÿ
+Xsquid:UselessImportCheck"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃýÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(ßè ×
+Xsquid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äþÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ž‰ÃÎüÿÿÿÿ
+gsquid:S3008"PRename this field "COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÖª¿
+Msquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ð¥Å
+Wsquid:S1854";Remove this useless assignment to local variable "content".(ï„Š¡þÿÿÿÿ
+Dsquid:S1989."(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ
+Hsquid:S1481",Remove this unused "content" local variable.(ï„Š¡þÿÿÿÿ
+gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ãÖëˆýÿÿÿÿ
+Isquid:S1989;"-Add a "try/catch" block for "getInputStream".(’¦Î‡úÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(Ô®È
+?squid:S1989;"#Add a "try/catch" block for "read".(’¦Î‡úÿÿÿÿ
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ï„Š¡þÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"QMake COUNT a static final constant or non-public and provide accessors if needed.(ÓÖª¿
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ûë‹»üÿÿÿÿ

@@ -1,0 +1,113 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-webapp</artifactId>
+  <packaging>war</packaging>
+  <version>1</version>
+  <name>my-webapp Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>3.8.1</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+          <version>2.5</version>
+        </dependency>
+      <!--<dependency>-->
+          <!--<groupId>org.wso2.carbon</groupId>-->
+          <!--<artifactId>org.wso2.carbon.tomcat</artifactId>-->
+          <!--<version>4.3.0</version>-->
+      <!--</dependency>-->
+      <dependency>
+          <groupId>com.hazelcast</groupId>
+          <artifactId>hazelcast-all</artifactId>
+          <version>3.0.1</version>
+      </dependency>
+  </dependencies>
+
+    <repositories>
+        <repository>
+            <id>wso2-nexus</id>
+            <name>WSO2 internal Repository</name>
+            <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>ignore</checksumPolicy>
+            </releases>
+        </repository>
+        <repository>
+            <id>apache-snapshots</id>
+            <name>Apache Maven 2 Snapshot Repository</name>
+            <url>http://people.apache.org/repo/m2-snapshot-repository/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <updatePolicy>interval:10080</updatePolicy> <!-- i.e. refresh weekly -->
+            </snapshots>
+        </repository>
+        <repository>
+            <id>wso2-m2</id>
+            <name>WSO2 Maven 2 Repository</name>
+            <url>http://dist.wso2.org/maven2/</url>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>wso2-m2-snapshots</id>
+            <name>WSO2 Maven 2 SNAPSHOTS Repository</name>
+            <url>http://dist.wso2.org/snapshots/maven2/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>interval:10080</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+  <!--<build>-->
+    <!--<finalName>my-webapp</finalName>-->
+  <!--</build>-->
+
+    <build>
+        <finalName>my-webapp</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+<!--                <groupId>org.eclipse.jetty</groupId>-->
+<!--                <artifactId>jetty-maven-plugin</artifactId>-->
+<!--                <version>9.3.0.v20150612</version>-->
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.10</version>
+                <!--<configuration>-->
+                    <!--<scanIntervalSeconds>10</scanIntervalSeconds>-->
+                    <!--<webApp>-->
+                        <!--<contextPath>my-webapp</contextPath>-->
+                    <!--</webApp>-->
+                <!--</configuration>-->
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

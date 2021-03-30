@@ -1,0 +1,4 @@
+[ballerina.observe]
+metricsEnabled=true
+tracingEnabled=true
+provider="choreo"
